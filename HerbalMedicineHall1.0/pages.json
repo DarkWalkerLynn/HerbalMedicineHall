@@ -1,0 +1,159 @@
+{
+	"easycom":{
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/chinese_medicine/chinese_medicine",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "中药"
+		        // "enablePullDownRefresh": false //开启下拉刷新
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/acupuncture/acupuncture",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "易学针灸"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/login_verification",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "短信验证登录"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/regist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/login_password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号密码登录"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chinese_medicine/chinese_medicine_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "中药详情"
+                // "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/acupuncture/acupuncture_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "穴位详情"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/prescription/prescription",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "常用方剂"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/prescription/prescription_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "方剂详情"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chinese_medicine/chinese_medicine_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "中药列表"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/acupuncture/acupuncture_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "穴位列表"
+                // "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#303133",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/chinese_medicine/chinese_medicine",
+	        "iconPath": "static/chinese_medicine.png",
+	        "selectedIconPath": "static/chinese_medicine.png",
+	        "text": "中药"
+	    }, 
+		{
+	        "pagePath": "pages/acupuncture/acupuncture",
+	        "iconPath": "static/acupuncture.png",
+	        "selectedIconPath": "static/acupuncture.png",
+	        "text": "易学针灸"
+	    }, 
+		{
+			"pagePath": "pages/prescription/prescription",
+			"iconPath": "static/common_patent_medicines.png",
+			"selectedIconPath": "static/common_patent_medicines.png",
+			"text": "常用方剂"
+		},
+		{
+	        "pagePath": "pages/me/me",
+	        "iconPath": "static/me.png",
+	        "selectedIconPath": "static/me.png",
+	        "text": "我的"
+	    }]
+	}
+}
