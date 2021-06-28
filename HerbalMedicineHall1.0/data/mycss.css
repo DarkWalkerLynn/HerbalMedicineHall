@@ -1,0 +1,89 @@
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.center{
+	margin:0 auto;
+	text-align: center;
+}
+.center-column{
+	margin:0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.fixed-bottom{
+	position: fixed;
+	bottom: 5rpx;
+}
+.flex{
+	display: flex;
+}
+.flex-row{
+	margin:0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.top{
+	margin-top: 20rpx;
+}
+.width-thirty{
+	width: 30%;
+}
+.width-fortyfive{
+	width: 45%;
+}
+.flex-ten{
+	flex: 1;
+}
+.flex-ninety{
+	flex: 9;
+}
+.my-title{
+	color: rgba(67,103,42,0.6);
+	font-size: 56rpx;
+	font-weight: bold;
+	margin-top: 20rpx;
+	margin-left: 25rpx;
+}
+.my-content{
+	text-indent: 2em;
+	padding: 20rpx 30rpx;
+	color: #555555;
+}
+.my-content-title{
+	color: #FFFFFF;
+	background-color: rgba(67,103,42,0.3);
+	line-height: 65rpx;
+	font-size: 38rpx;
+	font-weight: 300;
+	text-indent: 25rpx;
+	margin-top: 10rpx;
+}
+.my-item{
+	color: #555555;
+	font-size: 30rpx;
+	font-weight: 100;
+}
+.my-item-title{
+	color: #555555;
+	font-size: 34rpx;
+	font-weight: 900;
+	margin-left: 25rpx;
+	margin-top: 20rpx;
+}
+.my-image{
+	border-color: rgba(67,103,42,0.3);
+	border-radius: 200rpx;
+	border-width: 20rpx;
+	width:50%;
+	margin-top: 50rpx
+}
+.line{
+	color: rgba(67,103,42,0.6);
+}
